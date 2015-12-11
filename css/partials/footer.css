@@ -1,0 +1,29 @@
+
+#footer h4{
+      font-size: 1.5rem;
+      color: #573b1b;
+      font-weight:bold;	
+}
+#footer h6{
+      font-size: 1rem;
+      color: #573b1b;
+      font-weight:bold;	
+}
+
+#footer .tabla{
+	background: url('/images/bg/tabla.jpg');
+	background-size:cover;
+	margin-bottom: 0px !important;
+}
+#footer .tabla1{
+	background-image: url('/images/bg/tabla1.jpg');
+	background-size:cover;
+	margin-bottom: 0px !important;
+	padding-top: 10px;
+}
+
+@media screen and (max-width:1200px ) {
+      #footer .btn{
+            font-size: 0.6rem;
+      }
+}

@@ -1,0 +1,22 @@
+.titulo{
+	font-size: 1.4rem;
+    color: #e0933b;
+}
+.texto.txtTexto{
+	font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#checkout_form label{
+	font-size: 1.2rem;
+    color: black;
+}
+#checkout_form label.error.active{
+	background-color: rgba(0,0,0,0.1);
+    color: white;
+    z-index:-2;
+}
+#checkout_form label.error{
+	background-color:transparent;
+	color: red;
+}

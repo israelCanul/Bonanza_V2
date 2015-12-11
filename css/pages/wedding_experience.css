@@ -1,0 +1,24 @@
+.texto-wedding{
+	font-size:1.1rem;
+	text-align: justify;
+}
+@media screen and (min-width:1200px ) {
+	.texto-wedding{
+		font-size:1.4rem;
+	}
+}
+@media screen and (min-width:1400px ) {
+	.texto-wedding{
+		font-size:1.6rem;
+	}
+}
+@media screen and (min-width:1600px ) {
+	.texto-wedding{
+		font-size:1.7rem;
+	}
+}
+@media screen and (min-width:1800px ) {
+	.texto-wedding{
+		font-size:1.9rem;
+	}
+}

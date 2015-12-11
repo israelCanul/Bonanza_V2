@@ -1,0 +1,92 @@
+
+#bookin h4{
+    font-family: 'Squada One', cursive;    
+}
+#bookin h5{
+    font-family: 'Squada One', cursive;    
+}
+.ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
+    color: #4f8046;
+    font-weight: 700
+}
+.bookin-m-l{
+    padding: 25px 15px 25px 15px;
+    background-color: rgba(88,59,28,0.8);
+    z-index: 10;
+    color: white;
+    margin-top: 10px;	
+}
+.bookin-active{
+	height:auto;
+}	
+.bookin-inactive{
+	height: 0px;
+    overflow: hidden;
+    padding: 0px;
+}
+.ui-state-focus {
+    color: red;
+}
+
+.ui-menu {
+    list-style: none;
+    padding: 2px;
+    margin: 0;
+    display: block;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    max-height: 200px;
+    overflow-y: auto;
+    max-width: 400px;
+}
+
+.ui-autocomplete-destination {
+    background: #e0933b;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 2px;
+}
+
+.ui-menu .ui-menu-item {
+    position: relative;
+    margin: 0;
+    padding: 3px 1em 3px .4em;
+    cursor: pointer;
+    min-height: 0;
+    list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+}
+
+.ui-autocomplete {
+    font-size: 16px;
+    color: #000;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    border: 1px solid #00aaa6;
+    background: #4f8046;
+    color: #fff;
+}
+#bookin .caret{
+    color: white;
+}	
+#bookin button{
+    font-family: 'Squada One', cursive;
+    background-color: rgb(110,148,74);
+    color: white;
+}
+#bookin label {
+    font-family: 'Squada One', cursive;  
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight:100; 
+}
+@media screen and (min-width:1200px ) {
+	.bookin-m-l{
+	    position: absolute;
+	    z-index: 10;
+	    width: 100%;
+	}
+}

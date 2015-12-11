@@ -1,0 +1,1822 @@
+2015/11/26 11:00:45 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "application.views.partials.menu".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:875
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\protected\views\layouts\main.php(22): CController->renderPartial('application.vie...', true)
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require('C:\AppServ\www\...')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CContentDecorator.php(78): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#4 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate('<div id="conten...')
+#5 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(199): COutputProcessor->run()
+#7 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(294): CBaseController->endWidget('CContentDecorat...')
+#8 C:\AppServ\www\bonanza_v2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require('C:\AppServ\www\...')
+#10 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#11 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(781): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#12 C:\AppServ\www\bonanza_v2\protected\controllers\SiteController.php(31): CController->render('index')
+#13 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#14 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#15 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#16 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('index')
+#18 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/index')
+#19 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#20 C:\AppServ\www\bonanza_v2\index.php(13): CApplication->run()
+#21 {main} REQUEST_URI=/index.php?r=site/index
+2015/11/26 11:01:04 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "application.views.partials.menu".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:875
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\protected\views\layouts\main.php(22): CController->renderPartial('application.vie...', true)
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require('C:\AppServ\www\...')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CContentDecorator.php(78): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#4 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate('<div id="conten...')
+#5 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(199): COutputProcessor->run()
+#7 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(294): CBaseController->endWidget('CContentDecorat...')
+#8 C:\AppServ\www\bonanza_v2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require('C:\AppServ\www\...')
+#10 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#11 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(781): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#12 C:\AppServ\www\bonanza_v2\protected\controllers\SiteController.php(31): CController->render('index')
+#13 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#14 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#15 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#16 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('index')
+#18 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/index')
+#19 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#20 C:\AppServ\www\bonanza_v2\index.php(13): CApplication->run()
+#21 {main} REQUEST_URI=/index.php?r=site/index
+2015/11/26 11:07:43 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "application.views.partials.menu".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:875
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\protected\views\layouts\main.php(22): CController->renderPartial('application.vie...', true)
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require('C:\AppServ\www\...')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CContentDecorator.php(78): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#4 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate('<div id="conten...')
+#5 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(199): COutputProcessor->run()
+#7 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(294): CBaseController->endWidget('CContentDecorat...')
+#8 C:\AppServ\www\bonanza_v2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require('C:\AppServ\www\...')
+#10 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#11 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(781): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#12 C:\AppServ\www\bonanza_v2\protected\controllers\SiteController.php(31): CController->render('index')
+#13 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#14 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#15 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#16 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('')
+#18 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('')
+#19 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#20 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#21 {main} REQUEST_URI=/index.php?r=site/index
+2015/11/26 11:09:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/materialize.min.js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('js/materialize....')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/js/materialize.min.js
+2015/11/26 11:10:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('home')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/home
+2015/11/26 11:10:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/materialize.min.js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('js/materialize....')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/js/materialize.min.js
+2015/11/26 11:10:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/materialize.min.js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('js/materialize....')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/js/materialize.min.js
+2015/11/26 11:10:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/materialize.min.js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('js/materialize....')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/js/materialize.min.js
+2015/11/26 11:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 11:44:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 11:45:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 11:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 11:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 11:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 11:52:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 11:53:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 11:54:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 11:55:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:01:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:05:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:05:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:21:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:23:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:25:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:25:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:26:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:26:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:27:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:27:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:29:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:30:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:30:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:33:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:37:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:39:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:40:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:45:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:48:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:48:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:50:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/26 12:56:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon/MexicoNewsTravel.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon/Mex...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon/MexicoNewsTravel.png
+2015/11/27 09:22:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/11/27 14:47:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('tour')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/tour/view/...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/tour/view/about.html
+2015/11/27 14:47:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('tour')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/tour/view/...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/tour/view/js/jquery.js
+2015/11/27 14:47:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('tour')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/tour/view/...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/tour/view/js/jquery-ui.js
+2015/11/27 14:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('tour')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/tour/view/...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/tour/view/js/materialize.js
+2015/11/27 14:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('tour')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/tour/view/...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/tour/view/js/general.js
+2015/11/27 14:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('tour')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/tour/view/...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/tour/view/js/main.js
+2015/11/27 14:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('tour')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/tour/view/...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/tour/view/js/partials/menu.js
+2015/11/27 14:47:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('tour')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/tour/view/...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/tour/view/about.html
+2015/11/27 14:47:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('tour')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/tour/view/...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/tour/view/js/materialize.js
+2015/11/27 14:47:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('tour')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/tour/view/...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/tour/view/js/jquery-ui.js
+2015/11/27 14:47:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('tour')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/tour/view/...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/tour/view/js/general.js
+2015/11/27 14:47:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('tour')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/tour/view/...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/tour/view/js/main.js
+2015/11/27 14:47:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('tour')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/tour/view/...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/tour/view/js/jquery.js
+2015/11/27 14:47:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('tour')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/tour/view/...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/tour/view/js/partials/menu.js
+2015/11/27 15:34:13 [error] [php] YiiBase::include(CHtml1.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\bonanza_v2\lib\yii\YiiBase.php:421)
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\zii\widgets\CMenu.php(257): spl_autoload_call()
+#1 C:\AppServ\www\bonanza_v2\lib\yii\zii\widgets\CMenu.php(145): CMenu->normalizeItems()
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(140): CMenu->init()
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(165): SiteController->createWidget()
+#4 C:\AppServ\www\bonanza_v2\protected\views\partials\menu.php(27): SiteController->widget()
+#5 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require()
+#6 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#7 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(866): SiteController->renderFile()
+#8 C:\AppServ\www\bonanza_v2\protected\views\layouts\main.php(27): SiteController->renderPartial()
+#9 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require()
+#10 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#11 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CContentDecorator.php(78): SiteController->renderFile()
+#12 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate()
+#13 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#14 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(199): CContentDecorator->run()
+#15 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(294): SiteController->endWidget()
+#16 C:\AppServ\www\bonanza_v2\protected\views\layouts\column1.php(6): SiteController->endContent()
+#17 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require()
+#18 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#19 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(781): SiteController->renderFile()
+#20 C:\AppServ\www\bonanza_v2\protected\controllers\SiteController.php(31): SiteController->render()
+#21 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#22 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#23 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): SiteController->runAction()
+#24 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#25 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#26 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#27 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#28 C:\AppServ\www\bonanza_v2\index.php(21): CWebApplication->run()
+REQUEST_URI=/
+in C:\AppServ\www\bonanza_v2\protected\views\partials\menu.php (27)
+in C:\AppServ\www\bonanza_v2\protected\views\layouts\main.php (27)
+in C:\AppServ\www\bonanza_v2\protected\views\layouts\column1.php (6)
+2015/11/27 15:34:22 [error] [php] YiiBase::include(CHtml1.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\bonanza_v2\lib\yii\YiiBase.php:421)
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\zii\widgets\CMenu.php(257): spl_autoload_call()
+#1 C:\AppServ\www\bonanza_v2\lib\yii\zii\widgets\CMenu.php(145): CMenu->normalizeItems()
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(140): CMenu->init()
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(165): SiteController->createWidget()
+#4 C:\AppServ\www\bonanza_v2\protected\views\partials\menu.php(27): SiteController->widget()
+#5 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require()
+#6 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#7 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(866): SiteController->renderFile()
+#8 C:\AppServ\www\bonanza_v2\protected\views\layouts\main.php(27): SiteController->renderPartial()
+#9 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require()
+#10 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#11 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CContentDecorator.php(78): SiteController->renderFile()
+#12 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate()
+#13 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#14 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(199): CContentDecorator->run()
+#15 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(294): SiteController->endWidget()
+#16 C:\AppServ\www\bonanza_v2\protected\views\layouts\column1.php(6): SiteController->endContent()
+#17 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require()
+#18 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#19 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(781): SiteController->renderFile()
+#20 C:\AppServ\www\bonanza_v2\protected\controllers\SiteController.php(31): SiteController->render()
+#21 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#22 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#23 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): SiteController->runAction()
+#24 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#25 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#26 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#27 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#28 C:\AppServ\www\bonanza_v2\index.php(21): CWebApplication->run()
+REQUEST_URI=/
+in C:\AppServ\www\bonanza_v2\protected\views\partials\menu.php (27)
+in C:\AppServ\www\bonanza_v2\protected\views\layouts\main.php (27)
+in C:\AppServ\www\bonanza_v2\protected\views\layouts\column1.php (6)
+2015/11/27 16:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "meet_us".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('meet_us')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('meet_us')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/meet_us')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/meet_us.html
+2015/11/27 16:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/jquery....')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/jquery.js
+2015/11/27 16:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/materia...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/materialize.js
+2015/11/27 16:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/general...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/general.js
+2015/11/27 16:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/jquery-...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/jquery-ui.js
+2015/11/27 16:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/partial...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/partials/menu.js
+2015/11/27 16:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/main.js')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/main.js
+2015/11/27 17:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "wedding".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('wedding')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('wedding')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/wedding')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/wedding.html
+2015/11/27 17:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/jquery-...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/jquery-ui.js
+2015/11/27 17:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/partial...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/partials/menu.js
+2015/11/27 17:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/materia...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/materialize.js
+2015/11/27 17:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/jquery....')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/jquery.js
+2015/11/27 17:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/general...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/general.js
+2015/11/27 17:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/main.js')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/main.js
+2015/11/27 17:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/jquery-...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/jquery-ui.js
+2015/11/27 17:20:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/materia...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/materialize.js
+2015/11/27 17:20:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/general...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/general.js
+2015/11/27 17:20:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/main.js')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/main.js
+2015/11/27 17:20:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/partial...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/partials/menu.js
+2015/11/27 17:25:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "meet_us".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('meet_us')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('meet_us')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/meet_us')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/meet_us.html
+2015/11/27 17:25:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/jquery-...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/jquery-ui.js
+2015/11/27 17:25:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/jquery....')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/jquery.js
+2015/11/27 17:25:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/main.js')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/main.js
+2015/11/27 17:25:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/materia...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/materialize.js
+2015/11/27 17:25:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/partial...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/partials/menu.js
+2015/11/27 17:25:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/general...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/general.js
+2015/11/28 09:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/11/28 09:39:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "testimonial".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('testimonial')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('testimonial')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/testimonia...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/testimonial.html
+2015/11/28 09:39:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/jquery....')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/jquery.js
+2015/11/28 09:39:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/jquery-...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/jquery-ui.js
+2015/11/28 09:39:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/general...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/general.js
+2015/11/28 09:39:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/materia...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/materialize.js
+2015/11/28 09:39:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/main.js')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/main.js
+2015/11/28 09:39:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/partial...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/partials/menu.js
+2015/11/28 10:56:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/logo.jpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/l...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/logo.jpg
+2015/11/28 11:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/general...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/general.js
+2015/11/28 11:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/jquery-...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/jquery-ui.js
+2015/11/28 11:18:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/jquery....')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/jquery.js
+2015/11/28 11:18:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/materia...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/materialize.js
+2015/11/28 11:18:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/partial...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/partials/menu.js
+2015/11/28 11:18:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/main.js')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/main.js
+2015/11/30 09:37:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/11/30 10:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg/Footer.jpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/bg/Foote...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/bg/Footer.jpg
+2015/11/30 10:09:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg/Footer.jpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/bg/Foote...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/bg/Footer.jpg
+2015/11/30 10:52:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg/Footer.jpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/bg/Foote...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/bg/Footer.jpg
+2015/11/30 11:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg/Footer.jpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/bg/Foote...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/bg/Footer.jpg
+2015/11/30 11:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg/Footer.jpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/bg/Foote...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/bg/Footer.jpg
+2015/11/30 11:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg/js/general.js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/bg/js/ge...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/bg/js/general.js
+2015/11/30 11:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg/js/partials/menu.js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/bg/js/pa...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/bg/js/partials/menu.js
+2015/11/30 11:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg/js/jquery.js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/bg/js/jq...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/bg/js/jquery.js
+2015/11/30 11:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg/js/main.js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/bg/js/ma...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/bg/js/main.js
+2015/11/30 11:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg/js/jquery-ui.js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/bg/js/jq...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/bg/js/jquery-ui.js
+2015/11/30 11:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg/js/materialize.js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/bg/js/ma...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/bg/js/materialize.js
+2015/11/30 11:37:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg/Footer.jpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/bg/Foote...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/bg/Footer.jpg
+2015/11/30 11:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg/Footer.jpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/bg/Foote...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/bg/Footer.jpg
+2015/11/30 12:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/home/Home3_Djpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/home/Hom...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/home/Home3_Djpg
+2015/11/30 12:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/home/Home4_Djpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/home/Hom...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/home/Home4_Djpg
+2015/11/30 12:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/home/Home1_Djpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/home/Hom...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/home/Home1_Djpg
+2015/11/30 12:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/home/Home6_Djpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/home/Hom...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/home/Home6_Djpg
+2015/11/30 12:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/home/Home5_Djpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/home/Hom...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/home/Home5_Djpg
+2015/11/30 12:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/home/Home7_Djpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/home/Hom...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/home/Home7_Djpg
+2015/11/30 12:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/home/Home2_Djpg".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/home/Hom...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/home/Home2_Djpg
+2015/12/01 09:43:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/12/01 10:16:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/materia...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/materialize.js
+2015/12/01 10:16:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/jquery....')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/jquery.js
+2015/12/01 10:16:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/jquery-...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/jquery-ui.js
+2015/12/01 10:16:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/main.js')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/main.js
+2015/12/01 10:16:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/general...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/general.js
+2015/12/01 10:16:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/partial...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/partials/menu.js
+2015/12/01 10:17:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('js')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('js')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/js/partial...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/js/partials/menu.js
+2015/12/01 10:49:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "wedding".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('wedding')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('wedding')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/wedding')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/wedding.html
+2015/12/01 11:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "i".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('i')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/i
+2015/12/01 11:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "im".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('im')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/im
+2015/12/01 11:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ima".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('ima')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/ima
+2015/12/01 11:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imag".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('imag')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/imag
+2015/12/01 11:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('image')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/image
+2015/12/01 11:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/i".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/i')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/i
+2015/12/01 11:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ic".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/ic')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/ic
+2015/12/01 11:19:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ico".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/ico')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/ico
+2015/12/01 11:19:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icon".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icon')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icon
+2015/12/01 11:19:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icono".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/icono')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/icono
+2015/12/01 11:19:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/d".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/d')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/d
+2015/12/01 11:19:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/di".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/d...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/di
+2015/12/01 11:19:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/dir".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/d...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/dir
+2015/12/01 11:19:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/dire".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/d...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/dire
+2015/12/01 11:19:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/direc".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/d...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/direc
+2015/12/01 11:19:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/direcc".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/d...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/direcc
+2015/12/01 11:19:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/direcci".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/d...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/direcci
+2015/12/01 11:19:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/direccio".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/d...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/direccio
+2015/12/01 11:19:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/direccion.s".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/d...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/direccion.s
+2015/12/01 11:19:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/direccion.sv".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/d...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/direccion.sv
+2015/12/01 12:00:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "destination".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('destination')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/destination.html
+2015/12/01 13:11:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "wedding".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('wedding')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('wedding')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/wedding')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/wedding.html
+2015/12/01 15:41:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/12/01 16:30:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "media".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('media')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('media')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/media')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/media.html
+2015/12/01 17:13:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "media".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('media')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('media')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/media')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/media.html
+2015/12/02 09:39:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/12/02 12:38:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "testimonial".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('testimonial')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('testimonial')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/testimonia...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/testimonial.html
+2015/12/02 12:38:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "testimonial".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('testimonial')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('testimonial')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/testimonia...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/testimonial.html
+2015/12/02 12:48:31 [error] [exception.CException] exception 'CException' with message 'GenericFunctions and its behaviors do not have a method or closure named "convertPresentableDates".' in C:\AppServ\www\bonanza_v2\lib\yii\base\CComponent.php:269
+Stack trace:
+#0 [internal function]: CComponent->__call('convertPresenta...', Array)
+#1 C:\AppServ\www\bonanza_v2\protected\views\site\testimonial.php(15): GenericFunctions->convertPresentableDates('2015-08-03')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require('C:\AppServ\www\...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#4 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(866): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#5 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(779): CController->renderPartial('testimonial', Array, true)
+#6 C:\AppServ\www\bonanza_v2\protected\controllers\SiteController.php(119): CController->render('testimonial', Array)
+#7 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionTestimonial()
+#8 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#9 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#10 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('testimonial')
+#12 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/testimonia...')
+#13 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#14 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#15 {main} REQUEST_URI=/site/testimonial.html
+2015/12/02 12:50:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/icons/comment.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('img/icons/comme...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=//img/icons/comment.png
+2015/12/02 15:00:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/google2.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/g...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/google2.png?a=0.1
+2015/12/02 15:00:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/facebook29.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/f...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/facebook29.png?a=0.1
+2015/12/02 15:00:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/twitter2.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/t...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/twitter2.png?a=0.1
+2015/12/02 15:34:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/punterobonanza.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/p...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/punterobonanza.png
+2015/12/02 15:34:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/punterobonanza.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/p...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/punterobonanza.png
+2015/12/02 15:36:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/punterobonanza.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/p...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/punterobonanza.png
+2015/12/02 15:37:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/iconos/punterobonanza.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('images/iconos/p...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/images/iconos/punterobonanza.png
+2015/12/02 16:35:38 [error] [php] YiiBase::include(Widget.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\bonanza_v2\lib\yii\YiiBase.php:421)
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\protected\components\BookWidget.php(3): spl_autoload_call()
+#1 C:\AppServ\www\bonanza_v2\lib\yii\YiiBase.php(319): require()
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWidgetFactory.php(147): import()
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(139): CWidgetFactory->createWidget()
+#4 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(165): SiteController->createWidget()
+#5 C:\AppServ\www\bonanza_v2\protected\views\layouts\main.php(27): SiteController->widget()
+#6 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require()
+#7 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#8 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CContentDecorator.php(78): SiteController->renderFile()
+#9 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate()
+#10 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#11 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(199): CContentDecorator->run()
+#12 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(294): SiteController->endWidget()
+#13 C:\AppServ\www\bonanza_v2\protected\views\layouts\column1.php(6): SiteController->endContent()
+#14 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require()
+#15 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#16 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(781): SiteController->renderFile()
+#17 C:\AppServ\www\bonanza_v2\protected\controllers\SiteController.php(38): SiteController->render()
+#18 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#19 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#20 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): SiteController->runAction()
+#21 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#22 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): SiteController->run()
+#23 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#24 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#25 C:\AppServ\www\bonanza_v2\index.php(21): CWebApplication->run()
+REQUEST_URI=/home.html
+in C:\AppServ\www\bonanza_v2\protected\components\BookWidget.php (3)
+in C:\AppServ\www\bonanza_v2\protected\views\layouts\main.php (27)
+in C:\AppServ\www\bonanza_v2\protected\views\layouts\column1.php (6)
+2015/12/02 16:37:15 [error] [exception.CException] exception 'CException' with message 'BookWidget cannot find the view "bookin".' in C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CWidget.php:244
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\protected\components\BookWidget.php(14): CWidget->render('bookin', Array)
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(166): BookWidget->run()
+#2 C:\AppServ\www\bonanza_v2\protected\views\layouts\main.php(27): CBaseController->widget('application.com...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require('C:\AppServ\www\...')
+#4 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#5 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CContentDecorator.php(78): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#6 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate('<div id="conten...')
+#7 C:\AppServ\www\bonanza_v2\lib\yii\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(199): COutputProcessor->run()
+#9 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(294): CBaseController->endWidget('CContentDecorat...')
+#10 C:\AppServ\www\bonanza_v2\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require('C:\AppServ\www\...')
+#12 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#13 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(781): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#14 C:\AppServ\www\bonanza_v2\protected\controllers\SiteController.php(38): CController->render('index')
+#15 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#16 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#17 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#18 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('index')
+#20 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/index')
+#21 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#22 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#23 {main} REQUEST_URI=/home.html
+2015/12/03 10:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/12/03 10:45:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/partials/bookin.css".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/partials/bo...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/partials/bookin.css
+2015/12/03 10:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/partials/bookin.css".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/partials/bo...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/partials/bookin.css
+2015/12/03 14:14:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('site')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('site')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('site/site/carga...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#5 {main} REQUEST_URI=/site/site/cargar_hoteles_venta
+2015/12/03 14:57:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/12/03 15:07:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/03 15:09:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/03 15:10:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/03 15:13:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/03 17:04:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/03 17:04:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/03 17:05:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/03 18:15:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/03 18:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/03 18:18:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/03 18:19:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/03 18:21:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/03 18:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Procesa_datos".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('Procesa_datos')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/Procesa_datos
+2015/12/03 18:24:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(21): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/03 18:26:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/03 18:27:42 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.dbWeblt" is not defined.' in C:\AppServ\www\bonanza_v2\lib\yii\base\CComponent.php:131
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\base\CModule.php(88): CComponent->__get('dbWeblt')
+#1 C:\AppServ\www\bonanza_v2\protected\components\GenericFunctions.php(96): CModule->__get('dbWeblt')
+#2 C:\AppServ\www\bonanza_v2\protected\controllers\TourController.php(79): GenericFunctions->obtenerTipoCambio()
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): TourController->actionProcesa_datos()
+#4 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('procesa_datos')
+#8 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('tour/procesa_da...')
+#9 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#10 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#11 {main} REQUEST_URI=/procesa_datos.html
+2015/12/03 18:28:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 09:40:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/12/04 09:45:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 09:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 09:51:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 09:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 09:52:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 09:53:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 09:55:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 09:56:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 10:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 10:06:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 10:06:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 10:07:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 10:08:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 10:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 10:10:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 10:17:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "es/tour".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('es/tour')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/es/tour
+2015/12/04 10:22:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('tour')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#5 {main} REQUEST_URI=/tour
+2015/12/04 10:33:09 [error] [exception.CException] exception 'CException' with message 'GenericFunctions and its behaviors do not have a method or closure named "convierteFechaLetra".' in C:\AppServ\www\bonanza_v2\lib\yii\base\CComponent.php:269
+Stack trace:
+#0 [internal function]: CComponent->__call('convierteFechaL...', Array)
+#1 C:\AppServ\www\bonanza_v2\protected\controllers\TourController.php(9): GenericFunctions->convierteFechaLetra('12/25/2015', 1)
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): TourController->actionIndex()
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#4 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('')
+#7 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('tour')
+#8 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#9 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#10 {main} REQUEST_URI=/tour
+2015/12/04 10:33:49 [error] [exception.CException] exception 'CException' with message 'GenericFunctions and its behaviors do not have a method or closure named "cargarPais".' in C:\AppServ\www\bonanza_v2\lib\yii\base\CComponent.php:269
+Stack trace:
+#0 [internal function]: CComponent->__call('cargarPais', Array)
+#1 C:\AppServ\www\bonanza_v2\protected\views\tour\index.php(68): GenericFunctions->cargarPais()
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(119): require('C:\AppServ\www\...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\CBaseController.php(88): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#4 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(866): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#5 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(779): CController->renderPartial('index', Array, true)
+#6 C:\AppServ\www\bonanza_v2\protected\controllers\TourController.php(11): CController->render('index', Array)
+#7 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): TourController->actionIndex()
+#8 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#9 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#10 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('')
+#12 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('tour')
+#13 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#14 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#15 {main} REQUEST_URI=/tour
+2015/12/04 11:58:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "es".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('es')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/es
+2015/12/04 12:43:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 16:37:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/04 18:08:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "procesa_pago".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('procesa_pago')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('procesa_pago')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('tour/procesa_pa...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#5 {main} REQUEST_URI=/tour/procesa_pago
+2015/12/04 18:20:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "procesa_pago".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('procesa_pago')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('procesa_pago')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('tour/procesa_pa...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#5 {main} REQUEST_URI=/tour/procesa_pago
+2015/12/04 18:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "procesa_pago".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('procesa_pago')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('procesa_pago')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('tour/procesa_pa...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#5 {main} REQUEST_URI=/tour/procesa_pago
+2015/12/04 18:20:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "procesa_pago".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('procesa_pago')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('procesa_pago')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('tour/procesa_pa...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#5 {main} REQUEST_URI=/tour/procesa_pago
+2015/12/04 18:24:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "procesa_pago".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('procesa_pago')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('procesa_pago')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('tour/procesa_pa...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#5 {main} REQUEST_URI=/tour/procesa_pago
+2015/12/08 10:09:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(22): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/12/08 11:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "promotions".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('promotions')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(24): CApplication->run()
+#3 {main} REQUEST_URI=/promotions.html
+2015/12/08 11:25:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "promotions".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('promotions')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(24): CApplication->run()
+#3 {main} REQUEST_URI=/promotions.html
+2015/12/08 11:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(24): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/09 09:34:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(24): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/12/09 14:21:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(24): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/09 16:36:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(24): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/09 17:30:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "procesa_pago".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php:477
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(262): CController->missingAction('procesa_pago')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('procesa_pago')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('tour/procesa_pa...')
+#3 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 C:\AppServ\www\bonanza_v2\index.php(24): CApplication->run()
+#5 {main} REQUEST_URI=/tour/procesa_pago
+2015/12/10 09:46:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(24): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2015/12/10 10:41:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(24): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/10 10:48:54 [error] [exception.CException] exception 'CException' with message 'GenericFunctions and its behaviors do not have a method or closure named "obtenerIP".' in C:\AppServ\www\bonanza_v2\lib\yii\base\CComponent.php:269
+Stack trace:
+#0 [internal function]: CComponent->__call('obtenerIP', Array)
+#1 C:\AppServ\www\bonanza_v2\protected\controllers\TourController.php(115): GenericFunctions->obtenerIP()
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): TourController->actionProcesa_pago()
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#4 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('procesa_pago')
+#7 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('tour/procesa_pa...')
+#8 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#9 C:\AppServ\www\bonanza_v2\index.php(24): CApplication->run()
+#10 {main} REQUEST_URI=/tour/procesa_pago
+2015/12/10 10:52:15 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.Santander" is not defined.' in C:\AppServ\www\bonanza_v2\lib\yii\base\CComponent.php:131
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\base\CModule.php(88): CComponent->__get('Santander')
+#1 C:\AppServ\www\bonanza_v2\protected\controllers\TourController.php(151): CModule->__get('Santander')
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): TourController->actionProcesa_pago()
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams(Array)
+#4 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): CController->run('procesa_pago')
+#7 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('tour/procesa_pa...')
+#8 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#9 C:\AppServ\www\bonanza_v2\index.php(24): CApplication->run()
+#10 {main} REQUEST_URI=/tour/procesa_pago
+2015/12/10 10:53:48 [error] [php] Missing argument 1 for PaymentGatewaySantander::setVars(), called in C:\AppServ\www\bonanza_v2\protected\controllers\TourController.php on line 151 and defined (C:\AppServ\www\bonanza_v2\protected\components\PaymentGatewaySantander.php:24)
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): TourController->runAction()
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): TourController->runActionWithFilters()
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): TourController->run()
+#4 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#5 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#6 C:\AppServ\www\bonanza_v2\index.php(24): CWebApplication->run()
+REQUEST_URI=/tour/procesa_pago
+in C:\AppServ\www\bonanza_v2\protected\components\PaymentGatewaySantander.php (24)
+in C:\AppServ\www\bonanza_v2\protected\controllers\TourController.php (151)
+in C:\AppServ\www\bonanza_v2\index.php (24)
+2015/12/10 10:59:58 [error] [php] YiiBase::include(Cliente.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\bonanza_v2\lib\yii\YiiBase.php:421)
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\protected\controllers\TourController.php(153): spl_autoload_call()
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): TourController->actionProcesa_pago()
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): TourController->runAction()
+#4 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): TourController->runActionWithFilters()
+#5 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): TourController->run()
+#6 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#7 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#8 C:\AppServ\www\bonanza_v2\index.php(24): CWebApplication->run()
+REQUEST_URI=/tour/procesa_pago
+in C:\AppServ\www\bonanza_v2\protected\controllers\TourController.php (153)
+in C:\AppServ\www\bonanza_v2\index.php (24)
+2015/12/10 12:55:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(24): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/10 12:56:37 [error] [php] simplexml_load_string() [<a href='function.simplexml-load-string'>function.simplexml-load-string</a>]: Entity: line 7: parser error : Opening and ending tag mismatch: meta line 6 and head (C:\AppServ\www\bonanza_v2\protected\components\PaymentGatewaySantander.php:141)
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\actions\CInlineAction.php(50): TourController->actionProcesa_pago()
+#1 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(300): CInlineAction->runWithParams()
+#2 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(278): TourController->runAction()
+#3 C:\AppServ\www\bonanza_v2\lib\yii\web\CController.php(257): TourController->runActionWithFilters()
+#4 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(277): TourController->run()
+#5 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#6 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#7 C:\AppServ\www\bonanza_v2\index.php(24): CWebApplication->run()
+REQUEST_URI=/tour/procesa_pago
+in C:\AppServ\www\bonanza_v2\protected\components\PaymentGatewaySantander.php (141)
+in C:\AppServ\www\bonanza_v2\protected\controllers\TourController.php (290)
+in C:\AppServ\www\bonanza_v2\index.php (24)
+2015/12/10 13:00:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_glass_75_dadada_1x400.png".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('css/images/ui-b...')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(24): CApplication->run()
+#3 {main} REQUEST_URI=/css/images/ui-bg_glass_75_dadada_1x400.png
+2015/12/11 09:40:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php:281
+Stack trace:
+#0 C:\AppServ\www\bonanza_v2\lib\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 C:\AppServ\www\bonanza_v2\lib\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\AppServ\www\bonanza_v2\index.php(24): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico

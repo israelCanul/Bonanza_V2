@@ -1,0 +1,7 @@
+/.idea
+/.hg
+/protected/config
+sftp-config.json
+/es/protected/config
+sftp-config.json
+/web_elements
