@@ -12,7 +12,7 @@
 					<br>Due to personalized service, this is a special tour for up to 12 people.
 				</p>
 			</div>
-			<div class="col s12">
+			<div class="col s12 m6">
 				<h4 class="titulo cafe-text">Regulations: </h4>
 				<p class="texto cafe-text">
 					-Safety equipment is mandatory for use throughout the tour
@@ -27,7 +27,7 @@
 					<br>-Only people with galloping experience will be allowed to participate in this specific activity
 				</p>			
 			</div>
-			<div class="col s12">
+			<div class="col s12 m6">
 				<h4 class="titulo cafe-text">Recommendations: </h4>
 				<p class="texto cafe-text">
 					- Biodegradable sunscreen and insect repellent. 
@@ -39,14 +39,14 @@
 					<br>-Closed shoes or sneakers
 				</p>			
 			</div>
-			<div class="col s12">
+			<div class="col s12 m6">
 				<h4 class="titulo cafe-text">Departures: </h4>
 				<p class="texto cafe-text">
 					-Monday to Saturday at 9:30 am, 12:00 pm and 3:00 pm (time will depend on the location of your hotel).
 					<br>* For those coming from Cozumel, the ferry transportation is not included, departure will be from Plaza Playacar in Playa del Carmen.
 				</p>			
 			</div>
-			<div class="col s12">
+			<div class="col s12 m6">
 				<h4 class="titulo cafe-text">Included: </h4>
 				<p class="texto cafe-text">
 					-Bottled water, soft drinks and snacks at the end of the activity
@@ -60,7 +60,7 @@
 					<br>-Gallop-time (optional)
 				</p>			
 			</div>
-			<div class="col s12">
+			<div class="col s12 m6">
 				<h4 class="titulo cafe-text">Not Included: </h4>
 				<p class="texto cafe-text">
 					-From Cozumel ferry transportation is not included, departure is from Playa del Carmen

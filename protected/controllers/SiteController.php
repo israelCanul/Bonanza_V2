@@ -63,11 +63,14 @@ class SiteController extends Controller
 	{
 		$cs= Yii::app()->getclientScript();
 		//$cs->registerCssFile(Yii::app()->params["baseUrl"].'/css/plugins/owl/owl.carousel.css?a='. Yii::app()->params['assets'],'screen, projection');
-		$cs->registerCssFile(Yii::app()->params["baseUrl"].'/css/pages/media.css?a='. Yii::app()->params['assets'],'screen, projection');		
+		$cs->registerCssFile(Yii::app()->params["baseUrl"].'/css/pages/media.css?a='. Yii::app()->params['assets'],'screen, projection');
+		$cs->registerCssFile(Yii::app()->params["baseUrl"].'/css/plugins/owl/owl.carousel.css?a='. Yii::app()->params['assets'],'screen, projection');
+
 		$cs->registerScriptFile(Yii::app()->params["baseUrl"].'/js/plugins/freewall/freewall.js?a='. Yii::app()->params['assets'],CClientScript::POS_END);
 		$cs->registerScriptFile(Yii::app()->params["baseUrl"].'/js/pages/media.js?a='. Yii::app()->params['assets'],CClientScript::POS_HEAD);
 		$cs->registerScriptFile(Yii::app()->params["baseUrl"].'/js/jquery.mobile.touch.js?a='. Yii::app()->params['assets'],CClientScript::POS_END);
-		
+		$cs->registerScriptFile(Yii::app()->params["baseUrl"].'/js/plugins/owl/owl.carousel.js?a='. Yii::app()->params['assets'],CClientScript::POS_END);		
+
 		$this->pageTitle='Media';
 		$this->render('media');
 	}	

@@ -1,3 +1,6 @@
+.url{
+  cursor: pointer;
+}
 .cafe-text{
 	color: #573b1b;
 }
@@ -83,6 +86,13 @@
 .zmdi-google-plus:hover{
   color:  #e0933b;
 }
+
+@media screen and (min-width:600px ) {
+  .page-footer{
+    margin-top:100px;
+  }
+}
+
 @media screen and (min-width:1200px ) {
 
   .imagen-header{
@@ -96,7 +106,6 @@
   }
 
 } 
-
 
 
   body {

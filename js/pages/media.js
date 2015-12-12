@@ -1,11 +1,33 @@
 $(window).ready(function(){
+	var owl = $('.owl-carousel_3');
+        	owl.owlCarousel({
+            center: true,
+            items:2,
+            loop:true,
+            margin:10,
+        	autoplay:true,
+        	autoplayTimeout:5000,
+        	autoplayHoverPause:false ,   
+            responsive:{
+               0:{
+                	items:2
+                },
+                400:{
+                    items:2
+                },
+                1200:{
+                	items:1
+                }
+            }	
+		});
+
 	var cont = 0;
 	var slideActual=0;
 	var cantAvance=$("#wrapGaleria").width();
 	var widthContainer = $("#container").width() - $("#wrapGaleria").width();
 	var contSlide = widthContainer / cantAvance ;
 	var decimal = contSlide - Math.floor(contSlide)
-	var topContainer=$("#container").offset().top + $("#wrapGaleria").height()-50;
+	var topContainer=$("#container").offset().top + $("#wrapGaleria").height()-150;
 	var posRedes=topContainer;	
 
 	var wall= new freewall('#container');
@@ -37,7 +59,7 @@ function regraficar(){
 	widthContainer = $("#container").width() - $("#wrapGaleria").width();
 	contSlide = widthContainer / cantAvance ;
 	decimal = contSlide - Math.floor(contSlide)
-	topContainer=$("#container").offset().top + $("#wrapGaleria").height()-50;
+	topContainer=$("#container").offset().top + $("#wrapGaleria").height()-150;
 	posRedes=topContainer;
 	console.log(decimal);
 	$(".redesMedia").css('top',posRedes);

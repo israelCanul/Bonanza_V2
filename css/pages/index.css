@@ -38,4 +38,7 @@
         height: 700px;
         overflow: hidden;
     }
+    .owl-carousel .item{
+        height: 700px;
+    }
 }

@@ -2,13 +2,13 @@
 <div class="row">
 <div class=" col s12" style="position:relative" id="wrapGaleriaIndex">
 	<div class="owl-carousel">
-	  <div class='item'><img class="responsive-img" src="<?=Yii::app()->params["baseUrl"]."images/home/".GenericFunctions::renderImg('Home1');?>"></div>
-	  <div class='item'><img class="responsive-img" src="<?=Yii::app()->params["baseUrl"]."images/home/".GenericFunctions::renderImg('Home2');?>"></div>
-	  <div class='item'><img class="responsive-img" src="<?=Yii::app()->params["baseUrl"]."images/home/".GenericFunctions::renderImg('Home3');?>"></div>
-	  <div class='item'><img class="responsive-img" src="<?=Yii::app()->params["baseUrl"]."images/home/".GenericFunctions::renderImg('Home4');?>"></div>
-	  <div class='item'><img class="responsive-img" src="<?=Yii::app()->params["baseUrl"]."images/home/".GenericFunctions::renderImg('Home5');?>"></div>
-	  <div class='item'><img class="responsive-img" src="<?=Yii::app()->params["baseUrl"]."images/home/".GenericFunctions::renderImg('Home6');?>"></div>
-	  <div class='item'><img class="responsive-img" src="<?=Yii::app()->params["baseUrl"]."images/home/".GenericFunctions::renderImg('Home7');?>"></div>
+	  <div class='item'><img class="" style="height: 100%;" src="<?=Yii::app()->params["baseUrl"]."images/home/".GenericFunctions::renderImg('Home1');?>"></div>
+	  <div class='item'><img class="" style="height: 100%;" src="<?=Yii::app()->params["baseUrl"]."images/home/".GenericFunctions::renderImg('Home2');?>"></div>
+	  <div class='item'><img class="" style="height: 100%;" src="<?=Yii::app()->params["baseUrl"]."images/home/".GenericFunctions::renderImg('Home3');?>"></div>
+	  <div class='item'><img class="" style="height: 100%;" src="<?=Yii::app()->params["baseUrl"]."images/home/".GenericFunctions::renderImg('Home4');?>"></div>
+	  <div class='item'><img class="" style="height: 100%;" src="<?=Yii::app()->params["baseUrl"]."images/home/".GenericFunctions::renderImg('Home5');?>"></div>
+	  <div class='item'><img class="" style="height: 100%;" src="<?=Yii::app()->params["baseUrl"]."images/home/".GenericFunctions::renderImg('Home6');?>"></div>
+	  <div class='item'><img class="" style="height: 100%;" src="<?=Yii::app()->params["baseUrl"]."images/home/".GenericFunctions::renderImg('Home7');?>"></div>
 	</div>
 	<div class="controles ocultar-xs">
 		<div class="col s12">

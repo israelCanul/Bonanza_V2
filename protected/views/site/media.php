@@ -6,7 +6,7 @@
 	</div>	
 </div>
 <div class="row">
-	<div class="col s12 wrapGaleria" style="position: relative;overflow: hidden; " id='wrapGaleria'>
+	<div class="col s12 wrapGaleria hide-on-med-and-down" style="position: relative;overflow: hidden; " id='wrapGaleria'>
 <!-- 		<h5><?=Yii::t("global","Galería");?></h5> -->	
 		<div id="container">	
 		 		<img class="item responsive-img" src="/images/galeria/V1.jpg">
@@ -24,10 +24,19 @@
 				<img class="item responsive-img" src="/images/galeria/V4.jpg">
 		</div>					 									
 	</div>
+	<div class="col s12 hide-on-large-only">
+		<div class="owl-carousel_3">
+				<div class="item"><img class="responsive-img" src="/images/galeria/C2.jpg"></div>
+				<div class="item"><img class="responsive-img" src="/images/galeria/C3.jpg"></div>
+				<div class="item"><img class="responsive-img" src="/images/galeria/C4.jpg"></div>
+				<div class="item"><img class="responsive-img" src="/images/galeria/C5.jpg"></div>
+		 		<div class="item"><img class="responsive-img" src="/images/galeria/C1.jpg"></div>
+		</div>
+	</div>	
 	<div class="col s12 m10 offset-m1 redesMedia" style="position:absolute" id='redes'>
-		<a class="redIcon" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo Yii::app()->params['baseUrl']; ?>" target="_blank"><i class="zmdi zmdi-hc-2x zmdi-facebook white-text"></i>&nbsp;&nbsp;</a>		
-		<a class="redIcon" href="http://www.twitter.com/home?status=<?php echo Yii::app()->params['baseUrl']; ?>" target="_blank"><i class="zmdi zmdi-hc-2x zmdi-twitter white-text"></i>&nbsp;&nbsp;</a>
-		<a class="redIcon" href="https://plus.google.com/share?url=<?php echo Yii::app()->params['baseUrl']; ?>" target="_blank"><i class="zmdi zmdi-hc-2x zmdi-google-plus white-text"></i>&nbsp;&nbsp;</a>
+		<a class="redIcon" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo Yii::app()->params['baseUrl']; ?>media.html" target="_blank"><i class="zmdi zmdi-hc-2x zmdi-facebook white-text"></i>&nbsp;&nbsp;</a>		
+		<a class="redIcon" href="http://www.twitter.com/home?status=<?php echo Yii::app()->params['baseUrl']; ?>media.html" target="_blank"><i class="zmdi zmdi-hc-2x zmdi-twitter white-text"></i>&nbsp;&nbsp;</a>
+		<a class="redIcon" href="https://plus.google.com/share?url=<?php echo Yii::app()->params['baseUrl']; ?>media.html" target="_blank"><i class="zmdi zmdi-hc-2x zmdi-google-plus white-text"></i>&nbsp;&nbsp;</a>
 	</div>
 	<div class="controles ocultar-xs redesMedia">
 		<div class="col s6">

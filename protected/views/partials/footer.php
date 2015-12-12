@@ -3,7 +3,7 @@
 <!--  -->
 <div class="row tabla">
 	<div class="col s12">
-		<h4 class="center-align">KM 45, carretera cancún - Tulum, Riviera Maya, Q. Roo C.P.-77710, Mexicó</h4>
+		<h4 class="center-align">KM 45, carretera cancun - Tulum, Riviera Maya, Q. Roo C.P.-77710, Mexico</h4>
 	</div>
 </div>
 <div class="row tabla1">

@@ -2,46 +2,49 @@
    include_once $_SERVER['DOCUMENT_ROOT'].'/includes/Mobile_Detect.php';
     $detect = new Mobile_Detect(); //redireccionar a versión móvil si nos visitan desde un móvil o tablet
 ?>
-<div class="row">
+<div class="row" >
 	<div class="col s12 m10 offset-m1">
 		<h3><strong><?=Yii::t("global","Contacto");?></strong></h3>	
 		<h5 class="texto">
 			<?=Yii::t("global","En Rancho Bonanza el servicio es nuestra meta; por esto sus comentarios son importantes para nosotros. Nuestro personal está listo para responder sus dudas y tomar en cuenta sus sugerencias.");?>
 		</h5>
 	</div>
+	<div class="col s12"><br></div>
 	<div class="col s12 m10 offset-m1">
-		<div class="col-xs-12">
-			<div class="input-field col s12 m5 offset-m1">
-		    	<label class="hidden-xs" style="font-weight:bold;">Nombre *</label>
-		    	<input type="text" class="form-control etiqueta" id="name" placeholder="Enter Name">
-		  	</div>
-			<div class="input-field col s12 m5 offset-m1">
-		    	<label class="hidden-xs" style="font-weight:bold;">Correo *</label>
-		    	<input type="text" class="form-control etiqueta" id="email" placeholder="Enter Email">
-		  	</div>		  
-		</div>
-		<div class="col-xs-12">
-			<div class="input-field col s12 m5 offset-m1">
-		    	<label class="hidden-xs" style="font-weight:bold;">Teléfono</label>
-		    	<input type="text" class="form-control etiqueta" id="phone" placeholder="Enter Phone">
-		    </div>
-			<div class="input-field col s12 m5 offset-m1">
-		    	<label class="hidden-xs" style="font-weight:bold;">Pais *</label>
-		    	<input type="text" class="form-control etiqueta" id="country" placeholder="Enter Country">
-		  	</div>		  
-		</div>
-		<div class="col-xs-12">
-			<div class="input-field col s12 m5 offset-m1">
-		    	
-		    	<textarea rows="3" class="materialize-textarea" style="width:100%" id="comments">
-		    		
-		    	</textarea>
-		    	<label class="hidden-xs" for="comments" style="font-weight:bold;">Comentarios *</label> 
-		    </div>
-			<div class="col s12 m4 offset-m1 l2 offset-l1 col-xs-12 col-sm-4 col-sm-offset-1 col-md-2 col-md-offset-1">
-		    	<button class="btn btn-success orange accent-4" id="btnSubmit" >Enviar</button>
-		  	</div>		    
-		</div>
+
+			<div class="col-xs-12">
+				<div class="input-field col s12 m5 offset-m1">
+			    	<label class="hidden-xs" style="font-weight:bold;">Nombre *</label>
+			    	<input type="text" class="form-control etiqueta" id="name" placeholder="Enter Name">
+			  	</div>
+				<div class="input-field col s12 m5 offset-m1">
+			    	<label class="hidden-xs" style="font-weight:bold;">Correo *</label>
+			    	<input type="text" class="form-control etiqueta" id="email" placeholder="Enter Email">
+			  	</div>		  
+			</div>
+			<div class="col-xs-12">
+				<div class="input-field col s12 m5 offset-m1">
+			    	<label class="hidden-xs" style="font-weight:bold;">Teléfono</label>
+			    	<input type="text" class="form-control etiqueta" id="phone" placeholder="Enter Phone">
+			    </div>
+				<div class="input-field col s12 m5 offset-m1">
+			    	<label class="hidden-xs" style="font-weight:bold;">Pais *</label>
+			    	<input type="text" class="form-control etiqueta" id="country" placeholder="Enter Country">
+			  	</div>		  
+			</div>
+			<div class="col-xs-12">
+				<div class="input-field col s12 m5 offset-m1">
+			    	
+			    	<textarea rows="3" class="materialize-textarea" style="width:100%" id="comments">
+			    		
+			    	</textarea>
+			    	<label class="hidden-xs" for="comments" style="font-weight:bold;">Comentarios *</label> 
+			    </div>
+				<div class="col s12 m4 offset-m1 l2 offset-l1 col-xs-12 col-sm-4 col-sm-offset-1 col-md-2 col-md-offset-1">
+			    	<button class="btn btn-success orange accent-4" id="btnSubmit" >Enviar</button>
+			  	</div>		    
+			</div>
+
 	</div>
 <!-- 	<div class="col s12 "><br><br></div>
 	<div class="col s12 m8 offset-m2">
